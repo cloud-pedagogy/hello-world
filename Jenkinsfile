@@ -4,7 +4,7 @@ pipeline {
     maven 'Maven3' 
   }
   stages {
-      stage ('sravan Build Code') {
+      stage ('sravan2 Build Code') {
       steps {
         sh 'mvn clean package'
       }
